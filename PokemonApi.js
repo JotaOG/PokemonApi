@@ -16,7 +16,7 @@ const PokemonApi = () => {
       {pokemon.length > 0 &&
         pokemon.map((elem, index) => (
           <div key={index}>
-            {index} {elem.name}
+            {index + 1} {elem.name}
           </div>
         ))}
     </div>
